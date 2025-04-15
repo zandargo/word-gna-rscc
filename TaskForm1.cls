@@ -327,4 +327,5 @@ End Sub
 
 Private Sub btnUpdateDoc_Click()
 	' Empty as requested
+	Debug.Print "btnUpdateDoc_Click called"
 End Sub

@@ -23,12 +23,12 @@ Private Sub Document_ContentControlOnExit(ByVal ContentControl As ContentControl
 	Debug.Print "Type: " & ContentControl.Type
 
 	' Call test sub to print information about child content controls
-	TestPrintChildControls ContentControl
+	' TestPrintChildControls ContentControl
 
 	Dim currentValue As String
 	
 	If ContentControl.Tag = "component_or_process" Or ContentControl.Tag = "job_objective" Then
-		HandleJobSaveChanges toggleJobSave1
+		' HandleJobSaveChanges toggleJobSave1
 	End If
 
 End Sub
